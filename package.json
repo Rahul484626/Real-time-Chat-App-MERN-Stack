@@ -1,0 +1,24 @@
+{
+  "name": "just-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Rahul Bhalekar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "middleware": "^1.0.0",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3"
+  }
+}
